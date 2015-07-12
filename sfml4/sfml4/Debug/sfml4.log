@@ -1,0 +1,29 @@
+﻿Build started 11/07/2015 23:06:16.
+     1>Project "C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\sfml4\sfml4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Invaders.cpp
+         Invaders.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.h(9): warning C4099: 'Ship' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\ship.h(11) : see declaration of 'Ship'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.h(11): warning C4099: 'Invaders' : type name first seen using 'struct' now seen using 'class'
+                 c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\ship.h(9) : see declaration of 'Invaders'
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\sfml4\sfml4\invaders.cpp(116): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\Debug\sfml4.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\Debug\sfml4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\Debug\sfml4.lib" /MACHINE:X86 Debug\Bullet.obj
+         Debug\Enemy.obj
+         Debug\HUD.obj
+         Debug\Invaders.obj
+         Debug\main.obj
+         Debug\Ship.obj
+         sfml4.vcxproj -> C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\Debug\sfml4.exe
+     1>Done Building Project "C:\Users\user\Documents\Visual Studio 2013\Projects\sfml4\sfml4\sfml4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
